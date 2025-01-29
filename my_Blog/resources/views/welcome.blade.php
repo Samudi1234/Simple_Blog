@@ -7,12 +7,14 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
+    <title>Blog Template for Bootstrap</title>
+
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
-    <link href="{{asset('css/blog.css')}}" rel="stylesheet">
+    <link href="blog.css" rel="stylesheet">
   </head>
 
   <body>
@@ -20,7 +22,7 @@
     <div class="container">
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-4 pt-1">
+          <div class="col-4 pt-2">
             <a class="text-muted" href="#">Subscribe</a>
           </div>
           <div class="col-4 text-center">
@@ -35,6 +37,7 @@
         </div>
       </header>
 
+      
       <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
           <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
@@ -42,7 +45,7 @@
           <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
         </div>
       </div>
-
+       <br> </br>
       <div class="row mb-2">
         <div class="col-md-6">
           <div class="card flex-md-row mb-4 box-shadow h-md-250">
@@ -72,6 +75,14 @@
         </div>
       </div>
     </div>
+
+    
+    <footer class="blog-footer">
+      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

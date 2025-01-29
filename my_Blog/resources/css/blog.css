@@ -1,9 +1,14 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
-  line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+  line-height: 6;
+  border-bottom: 1px solid #434040;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff; /* Ensures visibility of the shadow */
+  position: relative;
+  z-index: 1000;
 }
+
 
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
