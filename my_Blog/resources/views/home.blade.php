@@ -55,7 +55,7 @@
 
             <div class="mb-4">
                 <label class="form-label">Post Description</label>
-                <textarea name="Description" class="form-control" rows="5" placeholder="Enter Post Description"></textarea>
+                <textarea name="Description" class="form-control" rows="5" placeholder="Enter Post Description" rows="5"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary">Post</button>
