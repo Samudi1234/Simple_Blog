@@ -24,7 +24,7 @@
                             <line x1="21" y1="21" x2="15.8" y2="15.8"></line>
                         </svg>
                     </a>
-                    <a class="btn btn-sm btn-outline-secondary me-2" href="{{route('login')}}">Login</a> 
+                    <a class="btn btn-sm btn-outline-secondary mr-2" href="{{route('login')}}">Login</a> 
                     <a class="btn btn-sm btn-outline-secondary" href="{{route('register')}}">Sign up</a>
                 </div>
             </div>
