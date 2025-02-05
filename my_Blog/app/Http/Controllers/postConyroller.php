@@ -7,9 +7,17 @@ use Illuminate\Http\Request;
 
 class postConyroller extends Controller
 {
-    public function store(Request $request){
+    public function store(Request $request)
+    {
 
-        Post
+        Post::create([
+
+            'user_id'=> auth()->user()->id ,
+            'title'=>$request->title,
+            'description'=> $request->description
+            
+
+        ]);
 
 
     }

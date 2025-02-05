@@ -47,15 +47,18 @@
 <div class="container d-flex justify-content-center align-items-center vh-100">
     <div class="form-container">
         <h1 class="text-center text-primary mb-4">Create a Post</h1>
-        <form>
+        
+        <form action="{{ route('posts.store') }}" method="POST">
+            @csrf  <!-- Laravel CSRF Token for Security -->
+
             <div class="mb-4">
                 <label class="form-label">Post Title</label>
-                <input type="text" name="Title" class="form-control" placeholder="Enter Post Title">
+                <input type="text" name="title" class="form-control" placeholder="Enter Post Title" required>
             </div>
 
             <div class="mb-4">
                 <label class="form-label">Post Description</label>
-                <textarea name="Description" class="form-control" rows="5" placeholder="Enter Post Description" rows="5"></textarea>
+                <textarea name="description" class="form-control" rows="5" placeholder="Enter Post Description" required></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary">Post</button>
@@ -65,9 +68,6 @@
 
 <!-- Bootstrap JS (Optional, required for components like modals) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-</html>
 
 
 
